@@ -1,0 +1,43 @@
+{
+  "name": "restfullapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mailchimp/mailchimp_transactional": "^1.0.59",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fs": "0.0.1-security",
+    "gitignore": "^0.7.0",
+    "googleapis": "^143.0.0",
+    "http-status": "^1.5.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^4.0.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.11",
+    "mongoose-aggregate-paginate-v2": "^1.1.2",
+    "multer": "^1.4.5-lts.1",
+    "node-mandrill": "^1.0.1",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "sib-api-v3-sdk": "^8.5.0",
+    "util": "^0.12.4",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
